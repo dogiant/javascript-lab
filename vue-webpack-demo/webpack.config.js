@@ -52,10 +52,10 @@ module.exports = {
             'vue$': 'vue/dist/vue.esm.js'
         }
     },
-    devServer: {//webpack-dev-server配置
-        historyApiFallback: true,//不跳转
+    devServer: { //webpack-dev-server配置
+        historyApiFallback: true, //不跳转
         noInfo: true,
-        inline: true//实时刷新
+        inline: true //实时刷新
     },
     performance: {
         hints: false

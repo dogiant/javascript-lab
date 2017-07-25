@@ -23,6 +23,7 @@
         },
         methods:{
             eClick(){
+                alert("aa");
                 console.log(9999);
             }
         }

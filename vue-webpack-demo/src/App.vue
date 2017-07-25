@@ -30,11 +30,9 @@ export default {
 }
 </script>
 
-<style lang="sass">
-   /*这里sass编译正常*/
-    $redColor : #f00;
-    h2{
-        color:$redColor;
+<style>
+    h2 {
+        color: #f00;
     }
     #app {
         text-align: center;
