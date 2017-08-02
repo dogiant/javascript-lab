@@ -13,7 +13,6 @@
 
 <script>
 import Store from '../service/StoreService'
-console.log(Store)
 export default {
   name: 'todos',
   data () {
