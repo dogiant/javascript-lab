@@ -1,0 +1,44 @@
+.note {
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    position: absolute;
+    -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: yellow;
+}
+
+.closeButton {
+    position: absolute;
+    background-image: url("deleteButton.png");
+    left: -15px;
+    top: -15px;
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+.note:hover .closeButton {
+    display: block;
+}
+
+.closeButton:active {
+    background-image: url("deleteButtonPressed.png");
+}
+
+.edit {
+    outline: none;
+}
+
+.mtime {
+    background-color: azure;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    font-size: 9px;
+    background-color: #db0;
+    color: white;
+    border-top: 1px solid #a80;
+    padding: 2px 4px;
+    text-align: right;
+}
